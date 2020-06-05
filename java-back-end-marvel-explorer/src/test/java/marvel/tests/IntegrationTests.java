@@ -24,8 +24,8 @@ import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standal
 
 public class IntegrationTests {
 	
-	@Autowired
-	CharacterController controller;
+    @Autowired
+    CharacterController controller;
 
     MockMvc mockMvc;
 
