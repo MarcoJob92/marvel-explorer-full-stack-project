@@ -24,14 +24,14 @@ to show a dynamic list of characters and a dedicated page for each of these char
 A search bar, shown at the top of the page, can be used to search characters by name.
 
 ## The Technical Point of View
-The Java Server comunicates with the Marvel APIs, so in theory there would be no need to have a back-end, 
+The Java Server comunicates with the Marvel APIs, but in theory there would be no need to have a back-end, 
 beacuse the front-end could comunicate directly with these APIs.  
-However the purpose of this project is to build a back-end that reproduces Serve-to-Server comunication, 
+However the purpose of this project is to build a back-end that reproduces Server-to-Server comunication, 
 creates an Object-oriented Model and sends data to the Front-end to update the UI.  
 **Jax-RS** was used to forward a Request from the Java code to the external APIs.  
 **Spring MVC** was used to expose the services from the back-end to the fron-end of the same application.
 
 ## Integration Tests
-The application has Integration tests to check that all the components involved in a REST request work properly.  
+The application has Integration Tests to check that all the components involved in a REST request work properly.  
 **JUnit** was used to write the test cases.
 
